@@ -8,12 +8,12 @@ def main(a):
     """
    
     if a == 0:
-        natija = -2
+        natija = 10
 
     if a > 0:
         natija = a + 1
 
-    if a < 1:
+    if a < 0:
         natija = a - 2
     
     return natija
