@@ -9,14 +9,14 @@ def main(a):
     Returns:
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False.
     """
-    a=abs(a)
+    num0 = a
     num1 = a % 10 
     a = a//10
-    num2 = a % 10
-    natija = 0
-    if num2 > num1:
+    num2 = num1*10 + a
+
+   
+    if num2 > num0:
         natija = True
-    if num2 < num1:
+    if num2 < num0:
         natija = False
     return natija
-print(main(-76))
