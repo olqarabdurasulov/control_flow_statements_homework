@@ -6,7 +6,7 @@ def main(a):
     Returns:
         a: integer
     """
-    natija = 0
+   
     if a == 0:
         natija = 10
 
