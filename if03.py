@@ -11,9 +11,9 @@ def main(a):
         natija = 10
 
     if a > 0:
-        natija += 1
+        natija = a + 1
 
     if a < 1:
-        natija -= 2
+        natija = a - 2
     
     return natija

@@ -14,7 +14,7 @@ def main(a):
     num2 = a % 10
 
     if num2 > num1:
-        natija = True
+        natija = "True"
     if num2 < num1:
-        natija = False
+        natija = "False"
     return natija
