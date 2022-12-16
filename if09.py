@@ -14,11 +14,8 @@ def main(a):
     num0 = num0//10
     num2 = num1*10 + num0
 
-   
-    if num2 < a:
-        return True
-    if num2 > a:
-        return False
-print(main(98))
-print(main(57))
-print(main(21))
+    return num2 < a
+    # if num2 < a:
+    #     return True
+    # if num2 > a:
+    #     return False
