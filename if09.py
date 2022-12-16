@@ -14,7 +14,7 @@ def main(a):
     num0 = num0//10
     num2 = num1*10 + num0
 
-    return num2 < a
+    return num2 > a
     # if num2 < a:
     #     return True
     # if num2 > a:
