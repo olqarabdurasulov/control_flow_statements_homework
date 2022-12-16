@@ -6,10 +6,13 @@ def main(a):
     Returns:
         a: integer
     """
-    if a > 0:
-        a += 1
-    if a < 1:
-        a -= 2
     if a == 0:
         a = 10
+
+    if a > 0:
+        a += 1
+        
+    if a < 1:
+        a -= 2
+    
     return a
