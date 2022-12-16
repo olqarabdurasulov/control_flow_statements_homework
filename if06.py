@@ -25,9 +25,9 @@ def main(a,b,c):
     
     if a < 0:
         negative_numbers +=1
-    if a < 0:
+    if b < 0:
         negative_numbers +=1
-    if a < 0:
+    if c < 0:
         negative_numbers +=1
 
     if negative_numbers < positive_numbers:

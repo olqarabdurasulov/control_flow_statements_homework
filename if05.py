@@ -11,8 +11,8 @@ def main(a,b,c):
     negative_numbers = 0
     if a < 0:
         negative_numbers +=1
-    if a < 0:
+    if b < 0:
         negative_numbers +=1
-    if a < 0:
+    if c < 0:
         negative_numbers +=1
     return negative_numbers

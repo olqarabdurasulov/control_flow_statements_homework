@@ -6,13 +6,14 @@ def main(a):
     Returns:
         a: integer
     """
+    natija = 0
     if a == 0:
-        a = 10
+        natija = 10
 
     if a > 0:
-        a += 1
-        
+        natija += 1
+
     if a < 1:
-        a -= 2
+        natija -= 2
     
-    return a
+    return natija
