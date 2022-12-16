@@ -8,4 +8,11 @@ def main(a,b,c):
     returns:
         integer: the number of negative numbers in the given numbers
     """
-    return
+    negative_numbers = 0
+    if a < 0:
+        negative_numbers +=1
+    if a < 0:
+        negative_numbers +=1
+    if a < 0:
+        negative_numbers +=1
+    return negative_numbers

@@ -11,4 +11,13 @@ def main(a):
     Returns:
         string: the message to print
     """
-    return
+    if a > 9 and a < 99 and a%2 == 1:
+        natija = "two-digit odd number"
+    if a > 9 and a < 99 and a%2 == 0:
+        natija = "two-digit even number"
+    if a > 99 and a < 999 and a%2 == 1:
+        natija = "three-digit odd number"
+    if a > 99 and a < 999 and a%2 == 0:
+        natija = "three-digit even number"
+    
+    return natija

@@ -13,4 +13,25 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    return
+    positive_numbers = 0
+    negative_numbers = 0
+
+    if a > 0:
+        positive_numbers += 1
+    if b > 0:
+        positive_numbers += 1
+    if c > 0:
+        positive_numbers += 1
+    
+    if a < 0:
+        negative_numbers +=1
+    if a < 0:
+        negative_numbers +=1
+    if a < 0:
+        negative_numbers +=1
+
+    if negative_numbers < positive_numbers:
+        natija = "there are a lot of positive numbers"
+    if negative_numbers > positive_numbers:
+        natija = "there are a lot of negative numbers"
+    return natija
