@@ -10,13 +10,15 @@ def main(a):
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False.
     """
     num0 = a
-    num1 = a % 10 
-    a = a//10
-    num2 = num1*10 + a
+    num1 = num0 % 10 
+    num0 = num0//10
+    num2 = num1*10 + num0
 
    
-    if num2 > num0:
-        natija = True
-    if num2 < num0:
-        natija = False
-    return natija
+    if num2 < a:
+        return True
+    if num2 > a:
+        return False
+print(main(98))
+print(main(57))
+print(main(21))
